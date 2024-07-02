@@ -13,6 +13,10 @@
     margin-bottom: 15px;
 }
 
+.center-projects {
+    text-align: center;
+}
+
 header {
     size: fixed;
 }
