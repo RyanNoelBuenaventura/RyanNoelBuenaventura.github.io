@@ -1,0 +1,154 @@
+/* Ryan Noel Buenaventura */
+
+.center {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.center-2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header {
+    size: fixed;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: Garamond;
+}
+
+footer {
+    font-family: Garamond;
+    font-size: 16px;
+    color: rgb(160, 160, 160)
+}
+
+.box {
+    width: 27%; 
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 10%;
+    min-height: 300px;
+    word-wrap: break-word;
+    background-color: rgb(250, 250, 250); 
+    border: 1px solid rgb(190, 190, 190); 
+}
+
+.box-2 {
+    width: 27%; 
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 150px;
+    word-wrap: break-word;
+    background-color: rgb(250, 250, 250); 
+    border: 1px solid rgb(170, 170, 170); 
+}
+
+h1 {
+    font-family: Creattion;
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: Garamond;
+    font-size: 28px;
+    color: rgb(119, 119, 119);
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+
+.about {
+    font-size: 22px;
+    color: rgb(0, 0, 0);  
+}
+
+img {
+    width: 32%;
+    height: auto;
+    margin-left: 102%;
+    margin-top: -285px;
+    float: left;
+    display: block;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.project-info {
+    display: inline-block;
+    max-width: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+a:link {
+    font-family: Garamond;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(60, 60, 150);
+}
+
+a:hover {
+    font-family: Garamond;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(60, 60, 150);
+    opacity: .5;
+}
+
+a:visited {
+    font-family: Garamond;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(60, 60, 150);
+    opacity: .5;
+}
+
+a:active {
+    font-family: Garamond;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(60, 60, 150);
+    opacity: .5;
+}
+
+@media (max-width: 1900px) {
+    .box {
+        width: 90%;
+        padding-right: 10px;
+        padding-bottom: 15px;
+    }
+
+    img {
+        width: 30%;
+        margin-left: 0;
+        margin-top: 15px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@font-face { font-family: Garamond; src: url('fonts/EBGaramond-VariableFont_wght.ttf'); }
+@font-face { font-family: Amsterdam; src: url('fonts/Amsterdam\ 400.ttf'); }
+@font-face { font-family: Creattion; src: url('fonts/Creattion\ Demo.otf'); }
