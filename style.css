@@ -62,14 +62,14 @@ h1 {
 
 h2 {
     font-family: Garamond;
-    font-size: 28px;
+    font-size: 24px;
     color: rgb(119, 119, 119);
     margin: 0;
     padding: 0;
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 24px;
     color: rgb(0, 0, 0);
 }
 
@@ -99,7 +99,7 @@ img {
 
 a:link {
     font-family: Garamond;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: rgb(60, 60, 150);
@@ -107,7 +107,7 @@ a:link {
 
 a:hover {
     font-family: Garamond;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: rgb(60, 60, 150);
@@ -116,7 +116,7 @@ a:hover {
 
 a:visited {
     font-family: Garamond;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: rgb(60, 60, 150);
@@ -125,7 +125,7 @@ a:visited {
 
 a:active {
     font-family: Garamond;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: rgb(60, 60, 150);
