@@ -20,30 +20,32 @@
     <link rel="preload" href="images/headshot.jpg" as="image">
 </head>
 
-<header>
-    <div class="center">
-        <h1>RyanBuenaventura</h1>
-        <h2>Undergraduate Computer Science Student at the University of California, Irvine</h2>
-        <div class="center-2">
-            <a href="./">&emsp;Home&emsp;</a>
-            <a href="./projects">&emsp;Projects&emsp;</a>
-            <a href="./contact">&emsp;Contact&emsp;</a>
-        </div>
-    </div>
-</header>
-
 <body>
+    <header>
+        <div class="center">
+            <h1>RyanBuenaventura</h1>
+            <h2>Undergraduate Computer Science Student at the University of California, Irvine</h2>
+            <div class="center-2">
+                <a href="./">&emsp;Home&emsp;</a>
+                <a href="./projects">&emsp;Projects&emsp;</a>
+                <a href="./contact">&emsp;Contact&emsp;</a>
+            </div>
+        </div>
+    </header>
     <div class="box">
         <h3><u>About</u></h3>
         <p class="about">From an early age, my goal has been to develop society through my creations and ideas. Computer science is a field I am passionate about and is where I can achieve this goal. I began professionally pursuing this goal at community college where I graduated and transferred from in 2024. There, I shared my knowledge by becoming a tutor for computer science and mathematics and by founding the Mt. San Jacinto College Computer Science Club. As the club president, I focused on supporting the community of students interested in computer science at the school as well as learning about emerging concepts in the field. Now continuing my academic journey with a projected graduation year of 2026 at University of California, Irvine, it is my passion for tech and computer science that drives me to organize and engage in various programs, fostering communities of like-minded individuals.</p>
-        <img src="images/headshot.jpg">
+        <img src="images/headshot.jpg" alt="Ryan Noel Buenaventura Headshot">
     </div>
+    <footer>
+        <div class="center-2">
+            <p>&copy; <span id="year"></span> Ryan Noel Buenaventura.</p>
+        </div>
+    </footer>
 </body>
 
-<footer>
-    <div class="center-2">
-        <p>&copy; 2024 Ryan Noel Buenaventura.</p>
-    </div>
-</footer>
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 
 </html>
